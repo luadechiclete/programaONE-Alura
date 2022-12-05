@@ -1,6 +1,4 @@
-<meta charset="UTF-8">
 
-<script>
 
     function pulaLinha() {
         document.write("<br><br>");
@@ -28,5 +26,3 @@ while(tentativas <= 3) {
 }
 
 mostra("FIM");
-
-</script>

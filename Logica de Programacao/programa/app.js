@@ -1,7 +1,4 @@
-<meta charset="UTF-8">
-
-<script>
-	var ano = 2016;
+var ano = 2016;
 	document.write("Flávio tem " + (ano - 1977) + " anos");
 	document.write("<br>");
 	document.write("Joaquim tem " + (ano - 1996) + " anos");
@@ -21,4 +18,3 @@
 	var nome = 'Flávio';
 
 	document.write('A idade de ' + nome + ' é ' + idadeFlavio);
-</script>

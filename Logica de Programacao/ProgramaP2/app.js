@@ -1,6 +1,3 @@
-<meta charset="UTF-8">
-
-<script>
 
     function pulaLinha() {
         document.write("<br>");
@@ -16,6 +13,3 @@
 
 	ano = 2017
 	document.write("Barney tem " + (ano - 1976) + " anos");
-
-
-</script>

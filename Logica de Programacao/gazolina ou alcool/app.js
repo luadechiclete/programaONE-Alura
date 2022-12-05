@@ -1,8 +1,3 @@
-<meta charset="UTF-8">
-
-<h3>Álcool ou Gasolina?</h3>
-
-<script>
 
     var caminhoComGasolina = 480;
     var caminhoComAlcool = 300;
@@ -14,5 +9,3 @@
 
     document.write("O consumo de Gasolina é " + consumoDeGasolina);
     document.write("<br>O consumo de Alcool é " + consumoDeAlcool);
-
-</script>

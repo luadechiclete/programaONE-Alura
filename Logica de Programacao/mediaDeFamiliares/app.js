@@ -1,6 +1,4 @@
-<meta charset="UTF-8">
 
-<script>
 
     function pulaLinha() {
         document.write("<br><br>");
@@ -27,4 +25,3 @@
     mostra("A média das idades dos familiares é " + mediaDasIdades);
 
     mostra("FIM");
-</script>

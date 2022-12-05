@@ -1,6 +1,4 @@
-<canvas width="600" height="400"></canvas>
-<script>
-    
+
     var tela = document.querySelector('canvas');
     var pincel = tela.getContext('2d');
 
@@ -24,5 +22,3 @@
     pincel.beginPath();
     pincel.arc(300, 200, 50, 0, 2 * 3.14);
     pincel.fill();
-
-</script>
