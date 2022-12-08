@@ -4,7 +4,7 @@ var pincel = tela.getContext('2d');
 pincel.fillStyle = 'grey';
 pincel.fillRect(0, 0, 600, 400);
 
-function exibeAlerta(evento) {
+function desenhaCirculo(evento) {
     var x = evento.pageX - tela.offsetLeft;
     var y = evento.pageY - tela.offsetTop;
     pincel.fillStyle = 'blue';
@@ -13,4 +13,4 @@ function exibeAlerta(evento) {
     pincel.fill();
 }
 
-tela.onclick = exibeAlerta;
+tela.onclick = desenhaCirculo;
